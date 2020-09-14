@@ -22,7 +22,7 @@
 
 2. 코드작성 완료 후 [http://localhost/w02-p/create.php] 에서 테스트 중에 커서를 title이 모여있는 list에 두지 않고 다른 곳(오른쪽 공백 공간)에 두어도, 커서 모양이 링크와 연결된 모양(손가락 클릭 아이콘)으로 뜨면서 클릭했을 때 [http://localhost/w02-p/index.php?id=4] 이곳으로 이동해버리는 오류를 발견하였다. 코드를 다시 전체적으로 살펴본 뒤 문제의 원인은 아래 사진과 같이 [a href]태그를 열어준 후 잘 닫아주지 않았다는 것을 깨달았다.
 
-![](./img/데베플 2주차과제 오류해결1.png)
+![screenshot1](./img/screenshot1.png)
 
 
 # :white_check_mark: 참고할 만한 내용
