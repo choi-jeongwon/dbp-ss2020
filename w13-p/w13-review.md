@@ -59,6 +59,7 @@ public class DBConnection {
 
 # :white_check_mark: 문제가 발생하거나 고민한 내용 + 해결 과정
 * 이클립스에 오라클 db를 연동하며 연결을 테스트 할 때 Ping이 계속 안 되었다. 문제점은 강의영상과 같이 Host를 server로 지정했기 때문이었다. Host를 localhost를 바꿈으로써 'Ping succeeded!' 메시지를 받을 수 있었다.
+* jdk 버전이 여러 개 있는 상태로 Eclipse Enterprise를 설치하려고 하니 버전이 맞지 않는 오류가 발생하였다. 따라서 환경변수 설정을 통해 Eclipse Enterprise 설치시에는 jdk 14.0.2 버전으로 진행하였고, ojdbc를 복사할 때는 jdk 1.8.0_271 버전을 통해 진행하여 오류를 해결할 수 있었다.
 
 # :white_check_mark: 참고할 만한 내용
 * https://dzzienki.tistory.com/4 이클립스 개발환경 세팅
