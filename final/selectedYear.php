@@ -58,11 +58,11 @@
         <h2><a href="index.php">모범 음식점</a> | 전통있는 모범음식점 현황</h2>
         <table>
             <tr>
-                <th>selectedDate</th>
-                <th>restaurantName</th>
-                <th>roadAddress</th>
-                <th>businessName</th>
-                <th>phoneNumber</th>
+                <th>모범음식점 지정일자</th>
+                <th>식당 이름</th>
+                <th>주소</th>
+                <th>메뉴 분류</th>
+                <th>전화번호</th>
             </tr>
             <?= $article ?>
         </table>

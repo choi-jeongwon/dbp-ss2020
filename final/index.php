@@ -6,6 +6,6 @@
 </head>
 <body>
  <h1>모범 음식점</h1>
- <a href="selectedYear.php">전통있는 모범음식점 현황</a>
+ <a href="selectedYear.php">전통있는(오래된) 모범음식점 현황</a>
 </body>
 </html>
